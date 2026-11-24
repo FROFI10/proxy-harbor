@@ -1,0 +1,16 @@
+{
+  "auto_collect": true,
+  "collect_interval": 900,
+  "check_concurrency": 120,
+  "source_concurrency": 10,
+  "check_timeout": 4.0,
+  "connect_timeout": 1.5,
+  "source_timeout": 15.0,
+  "max_per_cycle": 20000,
+  "max_candidates": 100000,
+  "recheck_interval": 600,
+  "freshness": 600,
+  "retention_days": 3,
+  "http_probe_url": "http://api.ipify.org?format=json",
+  "https_probe_url": "https://api.ipify.org?format=json"
+}

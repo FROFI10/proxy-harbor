@@ -1,0 +1,1946 @@
+[
+  {
+    "id": "feed-0504558572a7528b",
+    "name": "free-proxy-list.net family · HTTP",
+    "url": "https://www.us-proxy.org/",
+    "protocol": "http",
+    "format": "html",
+    "enabled": true
+  },
+  {
+    "id": "feed-774b7c1c30aedc4d",
+    "name": "github:access-at · SOCKS4",
+    "url": "https://raw.githubusercontent.com/Access-At/proxy-list/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-c02ce620c83a4bf6",
+    "name": "github:gnxd3rftt2we · SOCKS5",
+    "url": "https://raw.githubusercontent.com/gnxD3RfTT2WE/bulk-socks-proxy-list/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-1b677606f5f5ad6e",
+    "name": "github:398001 · HTTP",
+    "url": "https://raw.githubusercontent.com/398001/ProxysList/main/all_working.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-b7fd03aadac74ef6",
+    "name": "github:nikolait · SOCKS4",
+    "url": "https://raw.githubusercontent.com/NikolaiT/free-proxy-list/main/proxies/socks4_working.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-20c8ed0c39ca5da8",
+    "name": "github:hookzof · SOCKS5",
+    "url": "https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-03878b3f1c9b0b9f",
+    "name": "github:abusaeeidx · HTTP",
+    "url": "https://raw.githubusercontent.com/abusaeeidx/TazaProxy-Troxy/main/working_proxies.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-5483224c90c79997",
+    "name": "free-proxy-list.net family · SOCKS4",
+    "url": "https://www.socks-proxy.net/",
+    "protocol": "socks4",
+    "format": "html",
+    "enabled": true
+  },
+  {
+    "id": "feed-a6a3a45c9bc9de99",
+    "name": "github:398001 · SOCKS5",
+    "url": "https://raw.githubusercontent.com/398001/ProxysList/main/socks5_working.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-014781051d3ad763",
+    "name": "github:aliilapro · HTTP",
+    "url": "https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-cccca77534bb9c64",
+    "name": "github:398001 · SOCKS4",
+    "url": "https://raw.githubusercontent.com/398001/ProxysList/main/socks4_working.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-3157e5d8ce0a3da2",
+    "name": "github:aliilapro · SOCKS5",
+    "url": "https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-ab8785364c3a1fed",
+    "name": "github:andigwandi · HTTP",
+    "url": "https://raw.githubusercontent.com/andigwandi/free-proxy/main/proxy_list.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-1882d36b2b944087",
+    "name": "github:aliilapro · SOCKS4",
+    "url": "https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-507e8fc584a32751",
+    "name": "github:anonym0uswork1221 · SOCKS5",
+    "url": "https://raw.githubusercontent.com/Anonym0usWork1221/Free-Proxies/main/proxy_files/socks5_proxies.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-8a2d2e7c9fd93dc3",
+    "name": "github:anonym0uswork1221 · HTTP",
+    "url": "https://raw.githubusercontent.com/Anonym0usWork1221/Free-Proxies/main/proxy_files/http_proxies.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-905cd08caa23e310",
+    "name": "github:anonym0uswork1221 · SOCKS4",
+    "url": "https://raw.githubusercontent.com/Anonym0usWork1221/Free-Proxies/main/proxy_files/socks4_proxies.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-337a9bd25a4cf29c",
+    "name": "github:argh94 · SOCKS5",
+    "url": "https://raw.githubusercontent.com/Argh94/Proxy-List/main/SOCKS5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-e6908c617a95bd1c",
+    "name": "github:anutmagang · HTTP",
+    "url": "https://raw.githubusercontent.com/anutmagang/Free-HighQuality-Proxy-Socks/main/results/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-c170daf892aff054",
+    "name": "github:argh94 · SOCKS4",
+    "url": "https://raw.githubusercontent.com/Argh94/Proxy-List/main/SOCKS4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-46db6defd950e64c",
+    "name": "github:b4mbo-o · SOCKS5",
+    "url": "https://raw.githubusercontent.com/b4mbo-o/Check-Free-Proxy/main/alive_socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-d70efdbab287e674",
+    "name": "github:argh94 · HTTP",
+    "url": "https://raw.githubusercontent.com/Argh94/Proxy-List/main/HTTP.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-bc3789fba62dc7fd",
+    "name": "github:b4mbo-o · SOCKS4",
+    "url": "https://raw.githubusercontent.com/b4mbo-o/Check-Free-Proxy/main/alive_socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-121bdbce9b8ed37c",
+    "name": "github:blacksnowdot0 · SOCKS5",
+    "url": "https://raw.githubusercontent.com/BlacKSnowDot0/Proxy-Pulse/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-c3eb2616750249bf",
+    "name": "github:azestkingscrown · HTTP",
+    "url": "https://raw.githubusercontent.com/azestkingscrown/Free_Proxy_List/main/working_proxies.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-10ca82f595b30a11",
+    "name": "github:blacksnowdot0 · SOCKS4",
+    "url": "https://raw.githubusercontent.com/BlacKSnowDot0/Proxy-Pulse/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-235b5d8edd5ce63c",
+    "name": "github:ch4120n · SOCKS5",
+    "url": "https://raw.githubusercontent.com/Ch4120N/Ch4120N-Proxy-List/master/proxies/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-5d0ac55a1c4674ed",
+    "name": "github:b4mbo-o · HTTP",
+    "url": "https://raw.githubusercontent.com/b4mbo-o/Check-Free-Proxy/main/alive_http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-146677b180b37812",
+    "name": "github:ch4120n · SOCKS4",
+    "url": "https://raw.githubusercontent.com/Ch4120N/Ch4120N-Proxy-List/master/proxies/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-16804f0d73a876bf",
+    "name": "github:cheagjihvg · SOCKS5",
+    "url": "https://raw.githubusercontent.com/Cheagjihvg/simple-proxylist/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-ef5d121ec778aab6",
+    "name": "github:berkay-digital · HTTP",
+    "url": "https://raw.githubusercontent.com/berkay-digital/Proxy-Scraper/main/proxies.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-d8fe84699903de2a",
+    "name": "github:cheagjihvg · SOCKS4",
+    "url": "https://raw.githubusercontent.com/Cheagjihvg/simple-proxylist/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-864c768f56984c07",
+    "name": "github:ciara-12 · SOCKS5",
+    "url": "https://raw.githubusercontent.com/Ciara-12/PROXY-free/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-577b4c582a9aa483",
+    "name": "github:bes-js · HTTP",
+    "url": "https://raw.githubusercontent.com/Bes-js/public-proxy-list/main/proxies.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-a48bcd1b22f52e95",
+    "name": "github:ciara-12 · SOCKS4",
+    "url": "https://raw.githubusercontent.com/Ciara-12/PROXY-free/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-b8a6531aeb802b3e",
+    "name": "github:databay-labs · SOCKS5",
+    "url": "https://raw.githubusercontent.com/databay-labs/free-proxy-list/master/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-62f74cc0507d5718",
+    "name": "github:blacksnowdot0 · HTTP",
+    "url": "https://raw.githubusercontent.com/BlacKSnowDot0/Proxy-Pulse/main/all.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-61751409da97fdcf",
+    "name": "github:databay-labs · SOCKS4",
+    "url": "https://raw.githubusercontent.com/databay-labs/free-proxy-list/master/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-4e34f9e16c562c89",
+    "name": "github:dinoz0rg · SOCKS5",
+    "url": "https://raw.githubusercontent.com/dinoz0rg/proxy-list/main/checked_proxies/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-5899faabd3101080",
+    "name": "github:ch4120n · HTTP",
+    "url": "https://raw.githubusercontent.com/Ch4120N/Ch4120N-Proxy-List/master/proxies/all.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-ba5ad3555ca9322c",
+    "name": "github:dinoz0rg · SOCKS4",
+    "url": "https://raw.githubusercontent.com/dinoz0rg/proxy-list/main/checked_proxies/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-bc7744ecba9dad6b",
+    "name": "github:dpangestuw · SOCKS5",
+    "url": "https://raw.githubusercontent.com/dpangestuw/Free-PROXY/main/socks5_proxies.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-e27117b35e8e694a",
+    "name": "github:cheagjihvg · HTTP",
+    "url": "https://raw.githubusercontent.com/Cheagjihvg/simple-proxylist/main/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-964b9fc8a6b59882",
+    "name": "github:dpangestuw · SOCKS4",
+    "url": "https://raw.githubusercontent.com/dpangestuw/Free-PROXY/main/socks4_proxies.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-6ca5f9981064408e",
+    "name": "github:edt-pages · SOCKS5",
+    "url": "https://raw.githubusercontent.com/EDT-Pages/Proxy-List/main/data/socks5.json",
+    "protocol": "socks5",
+    "format": "json",
+    "enabled": true
+  },
+  {
+    "id": "feed-582f9e66dcd551d3",
+    "name": "github:chengaopan · HTTP",
+    "url": "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list_raw.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-46291eb153245962",
+    "name": "github:elliottophellia · SOCKS4",
+    "url": "https://raw.githubusercontent.com/elliottophellia/proxylist/master/results/socks4/global/socks4_checked.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-bc94c36852a2b24e",
+    "name": "github:elliottophellia · SOCKS5",
+    "url": "https://raw.githubusercontent.com/elliottophellia/proxylist/master/results/socks5/global/socks5_checked.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-962b84af908c40bf",
+    "name": "github:ciara-12 · HTTP",
+    "url": "https://raw.githubusercontent.com/Ciara-12/PROXY-free/main/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-abdb44035ef98396",
+    "name": "github:ercindedeoglu · SOCKS4",
+    "url": "https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-dfdf73c2edda3682",
+    "name": "github:ercindedeoglu · SOCKS5",
+    "url": "https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-2b4db95bbf1792ec",
+    "name": "github:claude89757 · HTTP",
+    "url": "https://raw.githubusercontent.com/claude89757/free_https_proxies/main/https_proxies.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-755c92ff535500ab",
+    "name": "github:fusionproxies · SOCKS4",
+    "url": "https://raw.githubusercontent.com/FusionProxies/free-proxy-list/main/proxies/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-eacffdc6f1ed6044",
+    "name": "github:fmw86 · SOCKS5",
+    "url": "https://raw.githubusercontent.com/fmw86/free-proxy-pool/main/socks5_alive.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-fd84ea02fde8e0d3",
+    "name": "github:daisymashiro · HTTP",
+    "url": "https://raw.githubusercontent.com/daisymashiro/proxy-free/main/proxy_alive.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-e102f1650326603d",
+    "name": "github:fyvri · SOCKS4",
+    "url": "https://raw.githubusercontent.com/fyvri/fresh-proxy-list/archive/storage/classic/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-6286de48522d9668",
+    "name": "github:fusionproxies · SOCKS5",
+    "url": "https://raw.githubusercontent.com/FusionProxies/free-proxy-list/main/proxies/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-9aa8388d97d371e4",
+    "name": "github:databay-labs · HTTP",
+    "url": "https://raw.githubusercontent.com/databay-labs/free-proxy-list/master/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-71d0beda646e8d3e",
+    "name": "github:gnxd3rftt2we · SOCKS4",
+    "url": "https://raw.githubusercontent.com/gnxD3RfTT2WE/github-proxy-list/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-1c418b9a6cf6a0d7",
+    "name": "github:fyvri · SOCKS5",
+    "url": "https://raw.githubusercontent.com/fyvri/fresh-proxy-list/archive/storage/classic/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-424c2a9e8e247064",
+    "name": "github:dinoz0rg · HTTP",
+    "url": "https://raw.githubusercontent.com/dinoz0rg/proxy-list/main/checked_proxies/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-cee220a8884588a6",
+    "name": "github:handeveloper1 · SOCKS4",
+    "url": "https://raw.githubusercontent.com/handeveloper1/DailyProxy---Auto-Update-List/main/Proxies-Ercin/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-c6c9abd7f572605e",
+    "name": "github:handeveloper1 · SOCKS5",
+    "url": "https://raw.githubusercontent.com/handeveloper1/DailyProxy---Auto-Update-List/main/Proxies-Ercin/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-c459923540852116",
+    "name": "github:dpangestuw · HTTP",
+    "url": "https://raw.githubusercontent.com/dpangestuw/Free-Proxy/main/All_proxies.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-477aaed62791c383",
+    "name": "github:hproxy-com · SOCKS4",
+    "url": "https://raw.githubusercontent.com/hproxy-com/free-proxy-list/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-5b2691e1b609f466",
+    "name": "github:hproxy-com · SOCKS5",
+    "url": "https://raw.githubusercontent.com/hproxy-com/free-proxy-list/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-4150efa6c77129c9",
+    "name": "github:edt-pages · HTTP",
+    "url": "https://raw.githubusercontent.com/EDT-Pages/Proxy-List/main/data/http.json",
+    "protocol": "http",
+    "format": "json",
+    "enabled": true
+  },
+  {
+    "id": "feed-a4aae7c1bef63498",
+    "name": "github:i-am-unbekannt · SOCKS4",
+    "url": "https://raw.githubusercontent.com/i-am-unbekannt/BLITZPROXY/main/out-files/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-4594912f24b9ca94",
+    "name": "github:i-am-unbekannt · SOCKS5",
+    "url": "https://raw.githubusercontent.com/i-am-unbekannt/BLITZPROXY/main/out-files/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-94add4b70e0c61fe",
+    "name": "github:elliottophellia · HTTP",
+    "url": "https://raw.githubusercontent.com/elliottophellia/proxylist/master/results/pmix_checked.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-7cb95d8f311c1d59",
+    "name": "github:iplocate · SOCKS4",
+    "url": "https://raw.githubusercontent.com/iplocate/free-proxy-list/main/protocols/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-53c531cfc926d111",
+    "name": "github:iplocate · SOCKS5",
+    "url": "https://raw.githubusercontent.com/iplocate/free-proxy-list/main/protocols/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-596cbafa0b8b6478",
+    "name": "github:ercindedeoglu · HTTP",
+    "url": "https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-272896e1621a5534",
+    "name": "github:ipparrot · SOCKS4",
+    "url": "https://raw.githubusercontent.com/IPParrot/proxy_ips/main/proxies/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-8283bf3396ebb96c",
+    "name": "github:ipparrot · SOCKS5",
+    "url": "https://raw.githubusercontent.com/IPParrot/proxy_ips/main/proxies/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-30b2cee960b75cfe",
+    "name": "github:ermaozi · HTTP",
+    "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-f4d6d7d52e7e3b6e",
+    "name": "github:litportnet · SOCKS4",
+    "url": "https://raw.githubusercontent.com/litportnet/free-proxy-list/main/proxies/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-44e69feba48bbdad",
+    "name": "github:komutan234 · SOCKS5",
+    "url": "https://raw.githubusercontent.com/komutan234/Proxy-List-Free/main/proxies/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-15e64b957a44f6c1",
+    "name": "github:fmw86 · HTTP",
+    "url": "https://raw.githubusercontent.com/fmw86/free-proxy-pool/main/http_alive.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-2b77a7abad5d07cf",
+    "name": "github:mauricegift · SOCKS4",
+    "url": "https://raw.githubusercontent.com/mauricegift/free-proxies/master/files/socks4.json",
+    "protocol": "socks4",
+    "format": "json",
+    "enabled": true
+  },
+  {
+    "id": "feed-844e350bce7100f6",
+    "name": "github:litportnet · SOCKS5",
+    "url": "https://raw.githubusercontent.com/litportnet/free-proxy-list/main/proxies/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-9e44d0511eeec7a9",
+    "name": "github:fusionproxies · HTTP",
+    "url": "https://raw.githubusercontent.com/FusionProxies/free-proxy-list/main/proxies/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-ab9fac6b1688f538",
+    "name": "github:maximilianfeix · SOCKS4",
+    "url": "https://raw.githubusercontent.com/maximilianfeix/free-proxy-list/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-cc251c3f73d7e727",
+    "name": "github:mauricegift · SOCKS5",
+    "url": "https://raw.githubusercontent.com/mauricegift/free-proxies/master/files/socks5.json",
+    "protocol": "socks5",
+    "format": "json",
+    "enabled": true
+  },
+  {
+    "id": "feed-29aa00e94edf62ce",
+    "name": "github:fyvri · HTTP",
+    "url": "https://raw.githubusercontent.com/fyvri/fresh-proxy-list/archive/storage/classic/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-649c5824d35b49a7",
+    "name": "github:mmpx12 · SOCKS4",
+    "url": "https://raw.githubusercontent.com/mmpx12/proxy-list/master/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-c1ba0014419c7dfb",
+    "name": "github:maximilianfeix · SOCKS5",
+    "url": "https://raw.githubusercontent.com/maximilianfeix/free-proxy-list/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-fe75decab9d69d00",
+    "name": "github:handeveloper1 · HTTP",
+    "url": "https://raw.githubusercontent.com/handeveloper1/DailyProxy---Auto-Update-List/main/Proxy-mzyui/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-ae612d4d5a6a96c4",
+    "name": "github:mohammedcha · SOCKS4",
+    "url": "https://raw.githubusercontent.com/Mohammedcha/ProxRipper/main/full_proxies/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-2c8ec164c003a06f",
+    "name": "github:mmpx12 · SOCKS5",
+    "url": "https://raw.githubusercontent.com/mmpx12/proxy-list/master/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-34eda79212719ae7",
+    "name": "github:hproxy-com · HTTP",
+    "url": "https://raw.githubusercontent.com/hproxy-com/free-proxy-list/main/all.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-2dba275130af4b12",
+    "name": "github:monosans · SOCKS4",
+    "url": "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-4631577dbff3c5d5",
+    "name": "github:mohammedcha · SOCKS5",
+    "url": "https://raw.githubusercontent.com/Mohammedcha/ProxRipper/main/full_proxies/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-89326df0a361cff9",
+    "name": "github:i-am-unbekannt · HTTP",
+    "url": "https://raw.githubusercontent.com/i-am-unbekannt/BLITZPROXY/main/out-files/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-fba2cf2dd8bbde99",
+    "name": "github:mzyui · SOCKS4",
+    "url": "https://raw.githubusercontent.com/mzyui/proxy-list/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-4ee1f0bbc50d283b",
+    "name": "github:monosans · SOCKS5",
+    "url": "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-26313b6bc7614de1",
+    "name": "github:iplocate · HTTP",
+    "url": "https://raw.githubusercontent.com/iplocate/free-proxy-list/main/all-proxies.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-0c1fad4b6ea504ea",
+    "name": "github:nguyenduytan · SOCKS4",
+    "url": "https://raw.githubusercontent.com/nguyenduytan/NDT-Proxy-Scraper/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-1941be6a8976890f",
+    "name": "github:mzyui · SOCKS5",
+    "url": "https://raw.githubusercontent.com/mzyui/proxy-list/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-9902126cf80a7687",
+    "name": "github:ipparrot · HTTP",
+    "url": "https://raw.githubusercontent.com/IPParrot/proxy_ips/main/proxies/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-15d2c351c3ac1d31",
+    "name": "github:noctiro · SOCKS4",
+    "url": "https://raw.githubusercontent.com/noctiro/getproxy/master/file/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-cd585ed11e73cbbc",
+    "name": "github:nguyenduytan · SOCKS5",
+    "url": "https://raw.githubusercontent.com/nguyenduytan/NDT-Proxy-Scraper/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-0209b62f7448bc86",
+    "name": "github:komutan234 · HTTP",
+    "url": "https://raw.githubusercontent.com/komutan234/Proxy-List-Free/main/proxies/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-7ec2b7c89fcbd41a",
+    "name": "github:officialputuid · SOCKS4",
+    "url": "https://raw.githubusercontent.com/officialputuid/KangProxy/main/socks4/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-6b36a7b6fe35c4a9",
+    "name": "github:nikolait · SOCKS5",
+    "url": "https://raw.githubusercontent.com/NikolaiT/free-proxy-list/main/proxies/socks5_working.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-85ca090b4b0476b6",
+    "name": "github:krokmazagaga · HTTP",
+    "url": "https://raw.githubusercontent.com/krokmazagaga/http-proxy-list/main/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-fe625e440e7179e0",
+    "name": "github:proxifly · SOCKS4",
+    "url": "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-2e3a808021d0a9a3",
+    "name": "github:noctiro · SOCKS5",
+    "url": "https://raw.githubusercontent.com/noctiro/getproxy/master/file/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-d9dab0dc04071348",
+    "name": "github:litportnet · HTTP",
+    "url": "https://raw.githubusercontent.com/litportnet/free-proxy-list/main/proxies/all.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-7dc2d80966d0e768",
+    "name": "github:proxio-io · SOCKS4",
+    "url": "https://raw.githubusercontent.com/proxio-io/proxy-list/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-987588e9d49593bb",
+    "name": "github:officialputuid · SOCKS5",
+    "url": "https://raw.githubusercontent.com/officialputuid/KangProxy/main/socks5/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-0ca7541d966654c4",
+    "name": "github:lonekingcode · HTTP",
+    "url": "https://raw.githubusercontent.com/LoneKingCode/free-proxy-db/main/proxies/all.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-3ecd76464927bcd0",
+    "name": "github:proxmint · SOCKS4",
+    "url": "https://raw.githubusercontent.com/proxmint/free-proxy-list/main/proxies/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-109ebe281c266fb7",
+    "name": "github:proxifly · SOCKS5",
+    "url": "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-3b13675d1478f8c5",
+    "name": "github:lucasjustinudin · HTTP",
+    "url": "https://raw.githubusercontent.com/lucasjustinudin/Free-HighQuality-Proxy-Socks/main/output/by_protocol/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-76f380afc3e64d80",
+    "name": "github:proxy-free · SOCKS4",
+    "url": "https://raw.githubusercontent.com/proxy-free/free-proxy-list/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-671e2656ecb7b318",
+    "name": "github:proxio-io · SOCKS5",
+    "url": "https://raw.githubusercontent.com/proxio-io/proxy-list/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-2319e47ae5daf637",
+    "name": "github:mauricegift · HTTP",
+    "url": "https://raw.githubusercontent.com/mauricegift/free-proxies/master/files/http.json",
+    "protocol": "http",
+    "format": "json",
+    "enabled": true
+  },
+  {
+    "id": "feed-970b5a97e0106d6e",
+    "name": "github:proxygenerator1 · SOCKS4",
+    "url": "https://raw.githubusercontent.com/proxygenerator1/ProxyGenerator/main/ForAnonymity/elite/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-451d3e6048cef531",
+    "name": "github:proxmint · SOCKS5",
+    "url": "https://raw.githubusercontent.com/proxmint/free-proxy-list/main/proxies/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-4bee58e456a87d18",
+    "name": "github:maximilianfeix · HTTP",
+    "url": "https://raw.githubusercontent.com/maximilianfeix/free-proxy-list/main/all.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-6535e4dd8131641e",
+    "name": "github:proxyscrape · SOCKS4",
+    "url": "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-ef2cf40f55b6dd17",
+    "name": "github:proxy-free · SOCKS5",
+    "url": "https://raw.githubusercontent.com/proxy-free/free-proxy-list/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-fcd1a122747f0738",
+    "name": "github:mmpx12 · HTTP",
+    "url": "https://raw.githubusercontent.com/mmpx12/proxy-list/master/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-0bed0b005969170e",
+    "name": "github:proxyscraper · SOCKS4",
+    "url": "https://raw.githubusercontent.com/ProxyScraper/ProxyScraper/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-3f1e2d5ee31dec54",
+    "name": "github:proxygenerator1 · SOCKS5",
+    "url": "https://raw.githubusercontent.com/proxygenerator1/ProxyGenerator/main/ForAnonymity/elite/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-6c6f947c8f8cfe11",
+    "name": "github:mohammedcha · HTTP",
+    "url": "https://raw.githubusercontent.com/Mohammedcha/ProxRipper/main/full_proxies/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-9d4765fb60f5f52d",
+    "name": "github:pwnx0 · SOCKS4",
+    "url": "https://raw.githubusercontent.com/pwnx0/proxy/main/proxies/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-80dc10040ba9cd46",
+    "name": "github:proxyscrape · SOCKS5",
+    "url": "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks5",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-1cf80088aebf99c8",
+    "name": "github:monosans · HTTP",
+    "url": "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/all.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-596cc87ece62ce89",
+    "name": "github:relayglass · SOCKS4",
+    "url": "https://raw.githubusercontent.com/relayglass/free-proxy-list/main/anonymity/elite/socks4/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-c9abea52afde6478",
+    "name": "github:proxyscraper · SOCKS5",
+    "url": "https://raw.githubusercontent.com/ProxyScraper/ProxyScraper/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-2a6d54d7a0a80735",
+    "name": "github:morawskidotmy · HTTP",
+    "url": "https://raw.githubusercontent.com/morawskidotmy/youtube-proxies/main/youtube-proxies.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-29cea759515ec168",
+    "name": "github:riommo · SOCKS4",
+    "url": "https://raw.githubusercontent.com/RioMMO/ProxyFree/main/SOCKS4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-193feb28914a5c09",
+    "name": "github:pwnx0 · SOCKS5",
+    "url": "https://raw.githubusercontent.com/pwnx0/proxy/main/proxies/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-2ece0b648d157f36",
+    "name": "github:mzyui · HTTP",
+    "url": "https://raw.githubusercontent.com/mzyui/proxy-list/main/all.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-13e94fce0245e7b5",
+    "name": "github:riyoway · SOCKS4",
+    "url": "https://raw.githubusercontent.com/Riyoway/Proxies/master/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-b1d41f72ddead7d4",
+    "name": "github:relayglass · SOCKS5",
+    "url": "https://raw.githubusercontent.com/relayglass/free-proxy-list/main/anonymity/elite/socks5/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-02e06262aff20baa",
+    "name": "github:nguyenduytan · HTTP",
+    "url": "https://raw.githubusercontent.com/nguyenduytan/NDT-Proxy-Scraper/main/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-3ef527ba0d39fbe5",
+    "name": "github:roosterkid · SOCKS4",
+    "url": "https://openproxylist.xyz/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-5175e4e6c49e6829",
+    "name": "github:riyoway · SOCKS5",
+    "url": "https://raw.githubusercontent.com/Riyoway/Proxies/master/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-cdcb132dfe5bf0d0",
+    "name": "github:noctiro · HTTP",
+    "url": "https://raw.githubusercontent.com/noctiro/getproxy/master/file/all.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-2583ad3c81d2c44f",
+    "name": "github:sevenworksdev · SOCKS4",
+    "url": "https://raw.githubusercontent.com/SevenworksDev/proxy-list/main/proxies/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-b8711beb96f9517b",
+    "name": "github:roosterkid · SOCKS5",
+    "url": "https://openproxylist.xyz/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-ab0ccee7995dc84f",
+    "name": "github:officialputuid · HTTP",
+    "url": "https://raw.githubusercontent.com/officialputuid/KangProxy/main/http/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-4feba2c77148bf99",
+    "name": "github:shubhamshendre · SOCKS4",
+    "url": "https://raw.githubusercontent.com/shubhamshendre/Free-Proxies/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-a7f3cca7958e5472",
+    "name": "github:sevenworksdev · SOCKS5",
+    "url": "https://raw.githubusercontent.com/SevenworksDev/proxy-list/main/proxies/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-60c9658b6be770bf",
+    "name": "github:peasoft · HTTP",
+    "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list_raw.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-515bbc1351b78b3d",
+    "name": "github:skillter · SOCKS4",
+    "url": "https://raw.githubusercontent.com/Skillter/ProxyGather/master/proxies/working-proxies-socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-1a9369f9059b0510",
+    "name": "github:shubhamshendre · SOCKS5",
+    "url": "https://raw.githubusercontent.com/shubhamshendre/Free-Proxies/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-5f97f884a8ab3461",
+    "name": "github:proxifly · HTTP",
+    "url": "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-13dcaa4d1eab9ae5",
+    "name": "github:solispirit · SOCKS4",
+    "url": "https://raw.githubusercontent.com/SoliSpirit/proxy-list/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-a3a565e8f06cc12d",
+    "name": "github:skillter · SOCKS5",
+    "url": "https://raw.githubusercontent.com/Skillter/ProxyGather/master/proxies/working-proxies-socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-67defab422ccca34",
+    "name": "github:proxio-io · HTTP",
+    "url": "https://raw.githubusercontent.com/proxio-io/proxy-list/main/all.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-69e681d8954ea08f",
+    "name": "github:stormsia · SOCKS4",
+    "url": "https://raw.githubusercontent.com/stormsia/proxy-list/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-6dff775e226bbc4f",
+    "name": "github:solispirit · SOCKS5",
+    "url": "https://raw.githubusercontent.com/SoliSpirit/proxy-list/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-6bd2134fc2aef6fa",
+    "name": "github:proxmint · HTTP",
+    "url": "https://raw.githubusercontent.com/proxmint/free-proxy-list/main/proxies/all.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-229ccf7305eabde6",
+    "name": "github:sunny9577 · SOCKS4",
+    "url": "https://raw.githubusercontent.com/sunny9577/proxy-scraper/master/generated/socks4_proxies.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-e8d84c478c16b0ae",
+    "name": "github:stormsia · SOCKS5",
+    "url": "https://raw.githubusercontent.com/stormsia/proxy-list/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-b6a58d25e9a2b29d",
+    "name": "github:proxy-free · HTTP",
+    "url": "https://raw.githubusercontent.com/proxy-free/free-proxy-list/main/all.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-5a4518aff940cd56",
+    "name": "github:thespeedx · SOCKS4",
+    "url": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-85ee59a67dcc4ff1",
+    "name": "github:sunny9577 · SOCKS5",
+    "url": "https://raw.githubusercontent.com/sunny9577/proxy-scraper/master/generated/socks5_proxies.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-e33e6c40f349583e",
+    "name": "github:proxygenerator1 · HTTP",
+    "url": "https://raw.githubusercontent.com/proxygenerator1/ProxyGenerator/main/ALL/ALL.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-5d2f550621535ad1",
+    "name": "github:thordata · SOCKS4",
+    "url": "https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/proxies/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-9a8ee23535c96855",
+    "name": "github:thespeedx · SOCKS5",
+    "url": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-d2057d375754c1fc",
+    "name": "github:proxyscrape · HTTP",
+    "url": "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-f87aaac7a31ec139",
+    "name": "github:tianndev · SOCKS4",
+    "url": "https://raw.githubusercontent.com/Tianndev/free-proxy/main/proxy/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-b2e8cd4be61e6c89",
+    "name": "github:thordata · SOCKS5",
+    "url": "https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/docs/data/links/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-ee5b172557ba98b5",
+    "name": "github:proxyscraper · HTTP",
+    "url": "https://raw.githubusercontent.com/ProxyScraper/ProxyScraper/main/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-9e7b02650942c0ef",
+    "name": "github:trio666 · SOCKS4",
+    "url": "https://raw.githubusercontent.com/trio666/proxy-checker/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-6c3208f4ec5f5266",
+    "name": "github:tianndev · SOCKS5",
+    "url": "https://raw.githubusercontent.com/Tianndev/free-proxy/main/proxy/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-b24c88745110710c",
+    "name": "github:pwnx0 · HTTP",
+    "url": "https://raw.githubusercontent.com/pwnx0/proxy/main/proxies/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-b4a739b2e76a051c",
+    "name": "github:tsprnay · SOCKS4",
+    "url": "https://raw.githubusercontent.com/Tsprnay/Proxy-lists/master/proxies/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-856169731413641e",
+    "name": "github:trio666 · SOCKS5",
+    "url": "https://raw.githubusercontent.com/trio666/proxy-checker/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-6fba54c0352f7aed",
+    "name": "github:pxys-io · HTTP",
+    "url": "https://raw.githubusercontent.com/Pxys-io/DailyProxyList/master/working_proxies.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-b90369dd73ea08cb",
+    "name": "github:tuanminpay · SOCKS4",
+    "url": "https://raw.githubusercontent.com/TuanMinPay/live-proxy/master/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-25f65a14cf7ff747",
+    "name": "github:tsprnay · SOCKS5",
+    "url": "https://raw.githubusercontent.com/Tsprnay/Proxy-lists/master/proxies/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-e392ae12803ce886",
+    "name": "github:relayglass · HTTP",
+    "url": "https://raw.githubusercontent.com/relayglass/free-proxy-list/main/protocol/http/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-01231bac53334148",
+    "name": "github:vadim287 · SOCKS4",
+    "url": "https://raw.githubusercontent.com/Vadim287/free-proxy/main/proxies/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-d013f48c9fa0ffd0",
+    "name": "github:tuanminpay · SOCKS5",
+    "url": "https://raw.githubusercontent.com/TuanMinPay/live-proxy/master/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-47d51ecefa185418",
+    "name": "github:rianilham28 · HTTP",
+    "url": "https://raw.githubusercontent.com/rianilham28/proxian/main/out/proxies.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-d0f7d1553fa34753",
+    "name": "github:vakhov · SOCKS4",
+    "url": "https://raw.githubusercontent.com/vakhov/fresh-proxy-list/master/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-3a33e14f6d8cff96",
+    "name": "github:vadim287 · SOCKS5",
+    "url": "https://raw.githubusercontent.com/Vadim287/free-proxy/main/proxies/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-66a8a86380e40b42",
+    "name": "github:riommo · HTTP",
+    "url": "https://raw.githubusercontent.com/RioMMO/ProxyFree/main/HTTP.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-f2733e5947b32b3f",
+    "name": "github:vann-dev · SOCKS4",
+    "url": "https://raw.githubusercontent.com/Vann-Dev/proxy-list/main/proxies/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-9d74ac77ef17969c",
+    "name": "github:vakhov · SOCKS5",
+    "url": "https://raw.githubusercontent.com/vakhov/fresh-proxy-list/master/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-50506acc4d16603b",
+    "name": "github:riyoway · HTTP",
+    "url": "https://raw.githubusercontent.com/Riyoway/Proxies/master/all.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-fb16bd2b8d7b5f7e",
+    "name": "github:vmheaven · SOCKS4",
+    "url": "https://raw.githubusercontent.com/vmheaven/VMHeaven.io-Free-Proxy-List/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-82b33ed9e41d4648",
+    "name": "github:vann-dev · SOCKS5",
+    "url": "https://raw.githubusercontent.com/Vann-Dev/proxy-list/main/proxies/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-e4a3e906692b5c5a",
+    "name": "github:roosterkid · HTTP",
+    "url": "https://openproxylist.xyz/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-01f587767d550cb4",
+    "name": "github:vpslabcloud · SOCKS4",
+    "url": "https://raw.githubusercontent.com/VPSLabCloud/VPSLab-Free-Proxy-List/main/socks4_all.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-9fbe8749905b676e",
+    "name": "github:vmheaven · SOCKS5",
+    "url": "https://raw.githubusercontent.com/vmheaven/VMHeaven.io-Free-Proxy-List/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-4db36c4ced389c32",
+    "name": "github:sevenworksdev · HTTP",
+    "url": "https://raw.githubusercontent.com/SevenworksDev/proxy-list/main/proxies/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-c415987212207e71",
+    "name": "github:wyattowalsh · SOCKS4",
+    "url": "https://raw.githubusercontent.com/wyattowalsh/proxywhirl/main/docs/proxy-lists/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-30dedce5ce35ed68",
+    "name": "github:vpslabcloud · SOCKS5",
+    "url": "https://raw.githubusercontent.com/VPSLabCloud/VPSLab-Free-Proxy-List/main/socks5_all.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-58e45cb91d75bf60",
+    "name": "github:shubhamshendre · HTTP",
+    "url": "https://raw.githubusercontent.com/shubhamshendre/Free-Proxies/main/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-2689db1aba7e1ba5",
+    "name": "github:xyzs996 · SOCKS4",
+    "url": "https://raw.githubusercontent.com/xyzs996/free-proxy-health-list/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-f2ef3469bc6fb75f",
+    "name": "github:wyattowalsh · SOCKS5",
+    "url": "https://raw.githubusercontent.com/wyattowalsh/proxywhirl/main/docs/proxy-lists/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-ded0fce2875efdeb",
+    "name": "github:skillter · HTTP",
+    "url": "https://raw.githubusercontent.com/Skillter/ProxyGather/master/proxies/scraped-proxies.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-3d732823f662e813",
+    "name": "github:z3a4 · SOCKS4",
+    "url": "https://raw.githubusercontent.com/z3a4/free-proxy-list/main/proxies/unchecked/socks4-proxies.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-b88fcc2e2b2e2bf9",
+    "name": "github:xyzs996 · SOCKS5",
+    "url": "https://raw.githubusercontent.com/xyzs996/free-proxy-health-list/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-77b3d40023ecdfc1",
+    "name": "github:solispirit · HTTP",
+    "url": "https://raw.githubusercontent.com/SoliSpirit/proxy-list/main/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-7b6836f2ebe5490c",
+    "name": "github:zaeem20 · SOCKS4",
+    "url": "https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-c1bd72e15284cb0b",
+    "name": "github:z3a4 · SOCKS5",
+    "url": "https://raw.githubusercontent.com/z3a4/free-proxy-list/main/proxies/unchecked/socks5-proxies.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-1031d5df3a23dac6",
+    "name": "github:solproxy · HTTP",
+    "url": "https://raw.githubusercontent.com/solproxy/sol-free-proxy-list/main/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-532ea0caf3c359c1",
+    "name": "proxylist.geonode.com · SOCKS4",
+    "url": "https://proxylist.geonode.com/api/proxy-list?limit=500&page=1&sort_by=speed&sort_type=asc&protocols=socks4",
+    "protocol": "socks4",
+    "format": "json",
+    "enabled": true
+  },
+  {
+    "id": "feed-5d606ad1deb7e736",
+    "name": "github:zaeem20 · SOCKS5",
+    "url": "https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-603dcfd6146c6ec5",
+    "name": "github:stormsia · HTTP",
+    "url": "https://raw.githubusercontent.com/stormsia/proxy-list/main/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-b22d94c6317a7993",
+    "name": "proxyspace.pro · SOCKS4",
+    "url": "https://proxyspace.pro/socks4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-0b9e1d806d4a2e88",
+    "name": "proxylist.geonode.com · SOCKS5",
+    "url": "https://proxylist.geonode.com/api/proxy-list?limit=500&page=1&sort_by=speed&sort_type=asc&protocols=socks5",
+    "protocol": "socks5",
+    "format": "json",
+    "enabled": true
+  },
+  {
+    "id": "feed-65621a2276a1d549",
+    "name": "github:sunny9577 · HTTP",
+    "url": "https://raw.githubusercontent.com/sunny9577/proxy-scraper/master/proxies.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-1b518e224121fcfd",
+    "name": "github:argh94 · SOCKS4",
+    "url": "https://raw.githubusercontent.com/Argh94/ProxyProwler/main/proxy_output/SOCKS4.txt",
+    "protocol": "socks4",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-a981f3371d71fcf1",
+    "name": "proxyspace.pro · SOCKS5",
+    "url": "https://proxyspace.pro/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-5a3849c2c0c53bf0",
+    "name": "github:themiralay · HTTP",
+    "url": "https://raw.githubusercontent.com/themiralay/Proxy-List-World/master/data.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-d1c6f308c71219fb",
+    "name": "spys.me · SOCKS5",
+    "url": "https://spys.me/socks.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-b63a8b0ebee612b7",
+    "name": "github:theriturajps · HTTP",
+    "url": "https://raw.githubusercontent.com/theriturajps/proxy-list/main/proxies.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-cc9d124237e12022",
+    "name": "freeproxy.world · SOCKS5",
+    "url": "https://www.freeproxy.world/?type=socks5&anonymity=&country=&speed=&port=&page=1",
+    "protocol": "socks5",
+    "format": "html",
+    "enabled": true
+  },
+  {
+    "id": "feed-0620f4e83483437a",
+    "name": "github:thespeedx · HTTP",
+    "url": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-d589c746de5d6e1b",
+    "name": "github:argh94 · SOCKS5",
+    "url": "https://raw.githubusercontent.com/Argh94/ProxyProwler/main/proxy_output/SOCKS5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-3c6e7d0ef321ac65",
+    "name": "github:thordata · HTTP",
+    "url": "https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/proxies/https.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-7317388c6e97dff6",
+    "name": "github:gnxd3rftt2we · SOCKS5",
+    "url": "https://raw.githubusercontent.com/gnxD3RfTT2WE/proxy-list-plain-text/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-def6ed5941bf9f81",
+    "name": "github:tianndev · HTTP",
+    "url": "https://raw.githubusercontent.com/Tianndev/free-proxy/main/proxy/all.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-0241d3aed23afa0d",
+    "name": "github:trio666 · HTTP",
+    "url": "https://raw.githubusercontent.com/trio666/proxy-checker/main/all.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-22049fd44ed73f2a",
+    "name": "github:tsprnay · HTTP",
+    "url": "https://raw.githubusercontent.com/Tsprnay/Proxy-lists/master/proxies/all.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-a07637191e96d8cd",
+    "name": "github:tuanminpay · HTTP",
+    "url": "https://raw.githubusercontent.com/TuanMinPay/live-proxy/master/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-c70c4e70e1fd1ded",
+    "name": "github:vadim287 · HTTP",
+    "url": "https://raw.githubusercontent.com/Vadim287/free-proxy/main/proxies/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-a018ca5c97ab7e7f",
+    "name": "github:vakhov · HTTP",
+    "url": "https://raw.githubusercontent.com/vakhov/fresh-proxy-list/master/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-3e9a0b4c712130c4",
+    "name": "github:vann-dev · HTTP",
+    "url": "https://raw.githubusercontent.com/Vann-Dev/proxy-list/main/proxies/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-33efb36c69738e84",
+    "name": "github:vmheaven · HTTP",
+    "url": "https://raw.githubusercontent.com/vmheaven/VMHeaven.io-Free-Proxy-List/main/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-7110a030ace611cb",
+    "name": "github:volkansah · HTTP",
+    "url": "https://raw.githubusercontent.com/VolkanSah/Auto-Proxy-Fetcher/main/proxies.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-20c1a033ad258b0f",
+    "name": "github:vpslabcloud · HTTP",
+    "url": "https://raw.githubusercontent.com/VPSLabCloud/VPSLab-Free-Proxy-List/main/all_ssl.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-4c6218bc94730594",
+    "name": "github:watchttvv · HTTP",
+    "url": "https://raw.githubusercontent.com/watchttvv/free-proxy-list/main/proxy.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-39439b264f573c38",
+    "name": "github:wyattowalsh · HTTP",
+    "url": "https://raw.githubusercontent.com/wyattowalsh/proxywhirl/main/docs/proxy-lists/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-7e3c319e37d80975",
+    "name": "github:xigmadev · HTTP",
+    "url": "https://raw.githubusercontent.com/XigmaDev/proxy/main/proxies.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-692ddea2e2718449",
+    "name": "github:xyzs996 · HTTP",
+    "url": "https://raw.githubusercontent.com/xyzs996/free-proxy-health-list/main/all.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-25ebd85226645a6e",
+    "name": "github:z3a4 · HTTP",
+    "url": "https://raw.githubusercontent.com/z3a4/free-proxy-list/main/proxies/unchecked/http-proxies.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-af6e334907ab0979",
+    "name": "github:zaeem20 · HTTP",
+    "url": "https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-d9b185a8b64a3e88",
+    "name": "proxylist.geonode.com · HTTP",
+    "url": "https://proxylist.geonode.com/api/proxy-list?limit=500&page=1&sort_by=lastChecked&sort_type=desc",
+    "protocol": "http",
+    "format": "json",
+    "enabled": true
+  },
+  {
+    "id": "feed-e25db1cb129b7322",
+    "name": "proxyspace.pro · HTTP",
+    "url": "https://proxyspace.pro/http.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-f1ad34f31ff7f639",
+    "name": "spys.me · HTTP",
+    "url": "https://spys.me/proxy.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-4bc8e742dd623aa1",
+    "name": "freeproxy.world · HTTP",
+    "url": "https://www.freeproxy.world/?page=1",
+    "protocol": "http",
+    "format": "html",
+    "enabled": true
+  },
+  {
+    "id": "feed-b1bf03173f062926",
+    "name": "github:solproxy · HTTP",
+    "url": "https://solproxy.net/free-proxy-list/api.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  },
+  {
+    "id": "feed-397ad293c6d8506f",
+    "name": "github:sunny9577 · HTTP",
+    "url": "https://sunny9577.github.io/proxy-scraper/proxies.txt",
+    "protocol": "http",
+    "format": "text",
+    "enabled": true
+  }
+]

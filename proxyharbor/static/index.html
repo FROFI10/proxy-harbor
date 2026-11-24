@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#171815">
+  <title>Proxy Harbor — локальный монитор прокси</title>
+  <link rel="stylesheet" href="/static/app.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">К содержимому</a>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Главная навигация">
+      <a class="brand" href="#overview" aria-label="Proxy Harbor — Обзор">
+        <span class="brand-mark" aria-hidden="true">PH</span>
+        <span><strong>Proxy Harbor</strong><small>Локальный узел</small></span>
+      </a>
+      <div class="sidebar-label">Рабочее пространство</div>
+      <nav class="navigation" aria-label="Разделы">
+        <a href="#overview" data-view="overview" aria-current="page"><span aria-hidden="true">01</span>Обзор</a>
+        <a href="#proxies" data-view="proxies"><span aria-hidden="true">02</span>Прокси</a>
+        <a href="#sources" data-view="sources"><span aria-hidden="true">03</span>Источники</a>
+        <a href="#api" data-view="api"><span aria-hidden="true">04</span>API</a>
+        <a href="#settings" data-view="settings"><span aria-hidden="true">05</span>Настройки</a>
+      </nav>
+      <div class="sidebar-bottom">
+        <span class="sidebar-label">Адрес сервиса</span>
+        <code id="service-address">—</code>
+        <p>Обновление каждые 3 с<br>Данные хранятся локально</p>
+        <a class="subtle-link" href="/docs" target="_blank" rel="noopener">Документация API <span aria-hidden="true">↗</span></a>
+      </div>
+    </aside>
+    <main id="main" tabindex="-1">
+      <header class="page-header">
+        <div>
+          <div class="eyebrow">Монитор прокси</div>
+          <h1 id="page-title">Обзор</h1>
+          <p id="page-description">Доступность, ход проверки и события сервиса.</p>
+        </div>
+        <div class="connection-meta">
+          <span id="connection-status" class="status-badge" role="status"><i aria-hidden="true"></i>Подключение</span>
+          <span id="last-sync">Данные ещё не получены</span>
+        </div>
+      </header>
+      <div id="connection-banner" class="connection-banner" role="status" hidden><p id="connection-error"></p><button id="retry-connection" class="button button-small" type="button">Повторить сейчас</button></div>
+      <div class="safety-note"><span aria-hidden="true">!</span><p>Публичные прокси ненадёжны. Не передавайте пароли, токены и персональные данные. Доступность быстро меняется.</p></div>
+      <div id="notice" class="notice" role="status" aria-live="polite" aria-atomic="true" hidden></div>
+      <div id="cycle-controls" class="command-strip" aria-label="Управление циклом">
+        <div><strong>Сбор и проверка</strong><span id="cycle-hint">Ожидание подключения</span></div>
+        <div class="button-group">
+          <button id="action-collect" class="button button-primary" type="button" disabled>Собрать прокси</button>
+          <button id="action-recheck" class="button" type="button" disabled>Перепроверить</button>
+          <button id="action-stop" class="button button-stop" type="button" disabled>Остановить</button>
+        </div>
+      </div>
+      <section id="view-overview" class="view" aria-label="Обзор">
+        <div class="section-toolbar">
+          <div><h2>Состояние пула</h2><p class="muted">Рабочие — только после полной и свежей проверки</p></div>
+          <span class="small-muted" id="pool-last-check">Проверок ещё нет</span>
+        </div>
+        <div class="kpi-strip" aria-label="Статистика пула">
+          <div class="kpi"><span>Рабочие</span><strong id="kpi-alive" class="mint">—</strong><small>Свежая проверка</small></div>
+          <div class="kpi"><span>Всего в реестре</span><strong id="kpi-total">—</strong><small><span id="kpi-pending">—</span> ожидают проверки</small></div>
+          <div class="kpi"><span>Устарели</span><strong id="kpi-stale" class="amber">—</strong><small>Исключены из выдачи</small></div>
+          <div class="kpi"><span>HTTPS</span><strong id="kpi-https">—</strong><small>Проверен TLS / CONNECT</small></div>
+          <div class="kpi"><span>Средний отклик</span><strong id="kpi-latency">—</strong><small>Среди рабочих прокси</small></div>
+        </div>
+        <div class="monitor-grid">
+          <section class="panel history-panel" aria-labelledby="history-title">
+            <div class="panel-header"><div><h2 id="history-title">История доступности</h2><p>Рабочие прокси на момент каждого замера</p></div><span class="legend"><i aria-hidden="true"></i>Рабочие</span></div>
+            <svg id="history-chart" viewBox="0 0 600 180" role="img" aria-labelledby="history-title history-description" hidden><desc id="history-description"></desc></svg>
+            <div id="history-empty" class="chart-empty"><strong>Истории пока нет</strong><p>График появится после двух замеров. Данные не моделируются.</p></div>
+            <div class="panel-foot"><span id="history-caption">Ожидание данных</span><span>Из журнала сервиса</span></div>
+          </section>
+          <section class="panel pipeline-panel" aria-labelledby="pipeline-title">
+            <div class="panel-header"><h2 id="pipeline-title">Текущий цикл</h2><span id="service-state" class="status-badge">Ожидание данных</span></div>
+            <p id="service-stage" class="pipeline-stage">Подключение к сервису</p>
+            <div class="progress-heading"><span>Источники</span><span id="source-progress-label">— / —</span></div>
+            <div id="source-progress" class="progress-track" role="progressbar" aria-label="Обработано источников" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0"><span></span></div>
+            <dl class="pipeline-metrics">
+              <div><dt>Найдено</dt><dd id="pipeline-parsed">—</dd></div>
+              <div><dt>Новых</dt><dd id="pipeline-added">—</dd></div>
+              <div><dt>Проверено</dt><dd id="pipeline-checked">—</dd></div>
+              <div><dt>Рабочих</dt><dd id="pipeline-working">—</dd></div>
+              <div><dt>В очереди</dt><dd id="pipeline-queue">—</dd></div>
+              <div><dt>Ошибок</dt><dd id="pipeline-errors">—</dd></div>
+            </dl>
+            <div class="panel-foot"><span id="cycle-time">Цикл ещё не запускался</span><span id="next-cycle">—</span></div>
+            <p id="cycle-error" class="inline-error" hidden></p>
+          </section>
+        </div>
+        <section class="panel activity-panel" aria-labelledby="activity-title">
+          <div class="panel-header"><h2 id="activity-title">Журнал событий</h2><span class="small-muted">Последние 80 событий</span></div>
+          <ul id="activity-log" class="activity-log" role="log" aria-live="polite" aria-relevant="additions" aria-label="События сервиса"><li class="log-empty">Ожидание данных сервиса</li></ul>
+        </section>
+      </section>
+      <section id="view-proxies" class="view" aria-label="Прокси" hidden>
+        <div class="section-toolbar"><div><h2>Реестр прокси</h2><p id="freshness-note" class="muted">Не проверенные и устаревшие адреса не попадают в API-выдачу.</p></div><div class="button-group"><button id="open-import" class="button" type="button">Импортировать список</button><button id="export-text" class="button" type="button" aria-label="Экспорт в текст">Экспорт .txt</button><button id="export-json" class="button" type="button" aria-label="Экспорт в JSON">Экспорт .json</button></div></div>
+        <form id="proxy-filters" class="filter-panel" aria-label="Фильтры прокси">
+          <div class="field search-field"><label for="proxy-query">Поиск по IP, порту или URL</label><input id="proxy-query" name="query" type="search" placeholder="IP, порт или URL" autocomplete="off" maxlength="120"></div>
+          <div class="field"><label for="proxy-status">Состояние</label><select id="proxy-status" name="status"><option value="alive">Рабочие · свежие</option><option value="pending">Не проверены</option><option value="dead">Не отвечают</option><option value="all">Все состояния</option></select></div>
+          <div class="field"><label for="proxy-protocol">Протокол</label><select id="proxy-protocol" name="protocol"><option value="">Все протоколы</option><option value="http">HTTP</option><option value="socks4">SOCKS4</option><option value="socks5">SOCKS5</option></select></div>
+          <div class="field"><label for="proxy-latency">Отклик не более, мс</label><input id="proxy-latency" name="max_latency_ms" type="number" min="1" max="60000" step="1" placeholder="Без ограничения"></div>
+          <div class="filter-bottom"><label class="check-field" for="proxy-https"><input id="proxy-https" name="https_only" type="checkbox">Проверенный HTTPS</label><div class="field inline-field"><label for="proxy-sort">Сортировка</label><select id="proxy-sort" name="sort"><option value="latency">Сначала быстрые</option><option value="recent">Недавно проверенные</option><option value="requests">Чаще выданные</option></select></div><button id="proxy-reset" class="button button-small" type="button">Сбросить фильтры</button></div>
+        </form>
+        <div class="export-note"><p>Экспорт: только свежие рабочие, с текущим поиском, протоколом, откликом и HTTPS. Выбранное состояние не применяется.</p><div class="field inline-field"><label for="export-limit">Лимит экспорта</label><select id="export-limit"><option value="100">100</option><option value="1000" selected>1 000</option><option value="5000">5 000</option></select></div></div>
+        <section id="proxy-results" class="panel" aria-label="Результаты поиска">
+          <div class="panel-header"><h3>Адреса</h3><span id="proxy-result-meta" class="small-muted" role="status">Ожидание запроса</span></div>
+          <p id="proxy-error" class="inline-error" role="alert" hidden></p>
+          <div class="table-scroll" tabindex="0" role="region" aria-label="Таблица прокси, горизонтальная прокрутка">
+            <table class="data-table proxy-table"><caption class="sr-only">Реестр адресов и результатов проверки</caption><thead><tr><th scope="col">Адрес / выходной IP</th><th scope="col">Протокол</th><th scope="col">Состояние</th><th scope="col">Отклик</th><th scope="col">HTTPS</th><th scope="col">Проверен</th><th scope="col">Выдан</th><th scope="col">Действия</th></tr></thead><tbody id="proxy-table-body"><tr><td colspan="8" class="table-empty">Данные ещё не загружены</td></tr></tbody></table>
+          </div>
+          <div class="pagination"><span id="proxy-count" role="status">—</span><div class="button-group"><div class="field inline-field"><label for="proxy-limit">На странице</label><select id="proxy-limit"><option value="25">25</option><option value="50" selected>50</option><option value="100">100</option></select></div><button id="proxy-prev" class="button button-small" type="button" aria-label="Предыдущая страница" disabled>Назад</button><button id="proxy-next" class="button button-small" type="button" aria-label="Следующая страница" disabled>Далее</button></div></div>
+        </section>
+      </section>
+      <section id="view-sources" class="view" aria-label="Источники" hidden>
+        <div class="section-toolbar"><div><h2>Каталог источников</h2><p class="muted">Загрузка списка не означает, что адреса в нём рабочие.</p></div><div class="button-group"><button id="source-discover" class="button" type="button">Подобрать через GitHub</button><button id="open-source" class="button button-primary" type="button">Добавить источник</button></div></div>
+        <p class="source-note">Подбор использует публичный GitHub API и запускается только вручную. Возможны ограничения запросов.</p>
+        <section id="source-results" class="panel" aria-label="Каталог публичных списков">
+          <div class="panel-header"><h3>Публичные списки</h3><span id="source-count" class="small-muted" role="status">Ожидание данных</span></div>
+          <p id="source-error" class="inline-error" role="alert" hidden></p>
+          <div class="table-scroll" tabindex="0" role="region" aria-label="Таблица источников, горизонтальная прокрутка"><table class="data-table source-table"><caption class="sr-only">Источники и результаты загрузки</caption><thead><tr><th scope="col">Источник / URL</th><th scope="col">Протокол</th><th scope="col">Состояние</th><th scope="col">Найдено / новых</th><th scope="col">Последняя загрузка</th><th scope="col">Время</th><th scope="col">Управление</th></tr></thead><tbody id="source-table-body"><tr><td colspan="7" class="table-empty">Данные ещё не загружены</td></tr></tbody></table></div>
+        </section>
+      </section>
+      <section id="view-api" class="view" aria-label="API" hidden>
+        <div class="section-toolbar"><div><h2>Локальная выдача</h2><p class="muted">API возвращает только свежие проверенные адреса. При пустом пуле — HTTP 503.</p></div><a class="button" href="/docs" target="_blank" rel="noopener">Открыть документацию ↗</a></div>
+        <div class="api-grid">
+          <section class="panel api-builder" aria-labelledby="api-builder-title">
+            <div class="panel-header"><h2 id="api-builder-title">Конструктор запроса</h2><span class="small-muted">GET</span></div>
+            <form id="api-builder-form" class="panel-body">
+              <div class="field"><label for="api-kind">Тип запроса</label><select id="api-kind"><option value="proxy">Выдать один прокси</option><option value="export">Выгрузить рабочий пул</option><option value="list">Посмотреть реестр</option><option value="stats">Статистика сервиса</option></select></div>
+              <div class="form-grid"><div class="field"><label for="api-protocol">Протокол выдачи</label><select id="api-protocol"><option value="">Любой протокол</option><option value="http">HTTP</option><option value="socks4">SOCKS4</option><option value="socks5">SOCKS5</option></select></div><div class="field"><label for="api-latency">Максимальный отклик, мс</label><input id="api-latency" type="number" min="1" max="60000" step="1" placeholder="Без ограничения"></div></div>
+              <label class="check-field" for="api-https"><input id="api-https" type="checkbox">Только проверенный HTTPS</label>
+              <div class="field"><label for="api-strategy">Стратегия выдачи</label><select id="api-strategy"><option value="random">Случайный</option><option value="best">Самый быстрый</option><option value="round_robin">По кругу</option></select></div>
+              <div class="form-grid"><div class="field"><label for="api-format">Формат ответа</label><select id="api-format"><option value="json">JSON</option><option value="text">Текст · URL</option></select></div><div class="field"><label for="api-limit">Лимит записей</label><input id="api-limit" type="number" min="1" max="10000" step="1" value="1000" required disabled></div></div>
+              <p class="muted">Для HTTP поддержка HTTPS означает проверенный CONNECT, а не TLS-соединение с самим прокси.</p>
+            </form>
+          </section>
+          <div class="api-output">
+            <section class="panel" aria-labelledby="api-request-title"><div class="panel-header"><h2 id="api-request-title">Запрос</h2><span class="small-muted">Только этот сервис</span></div><form id="api-test-form" class="panel-body"><div class="field"><label for="api-url">URL запроса</label><input id="api-url" type="url" required spellcheck="false" autocomplete="off" class="mono"></div><div class="form-actions"><button id="api-copy-url" class="button" type="button">Скопировать URL запроса</button><button id="api-test" class="button button-primary" type="submit">Выполнить GET</button></div><p id="api-error" class="inline-error" role="alert" hidden></p></form></section>
+            <section class="panel" aria-labelledby="api-example-title"><div class="panel-header"><h2 id="api-example-title">Пример</h2><div class="field inline-field"><label class="sr-only" for="api-example-kind">Пример запроса</label><select id="api-example-kind"><option value="curl">curl · PowerShell</option><option value="python">Python · стандартная библиотека</option><option value="powershell">PowerShell</option></select></div></div><pre id="api-example-code" class="code-block" tabindex="0" aria-label="Код примера"></pre><div class="panel-foot"><span>Адрес формируется из текущего запроса</span><button id="api-copy-example" class="button button-small" type="button">Скопировать пример</button></div></section>
+          </div>
+        </div>
+        <section class="panel api-response-panel" aria-labelledby="api-response-title"><div class="panel-header"><h2 id="api-response-title">Ответ API</h2><span id="api-response-meta" class="small-muted" role="status">Запрос ещё не выполнялся</span></div><pre id="api-response" class="code-block response-block" tabindex="0" aria-label="Тело ответа API">Здесь появится фактический ответ локального сервиса.</pre></section>
+      </section>
+      <section id="view-settings" class="view" aria-label="Настройки" hidden>
+        <div class="section-toolbar"><div><h2>Параметры сервиса</h2><p class="muted">Загружены из API. Сохранение записывает локальную конфигурацию.</p></div><button id="settings-reload" class="button" type="button">Перечитать с сервера</button></div>
+        <p id="settings-error" class="inline-error" role="alert" hidden></p>
+        <form id="settings-form">
+          <fieldset id="settings-fields" class="form-root" disabled>
+            <fieldset class="settings-group"><legend>Расписание и свежесть</legend><p>Старые результаты не используются для выдачи. Интервалы указаны в секундах.</p><label class="check-field" for="setting-auto"><input id="setting-auto" name="auto_collect" type="checkbox">Автоматический сбор</label><div class="settings-grid">
+              <div class="field"><label for="setting-collect">Интервал сбора, с</label><input id="setting-collect" name="collect_interval" type="number" min="60" max="86400" step="1" required></div>
+              <div class="field"><label for="setting-recheck">Интервал перепроверки, с</label><input id="setting-recheck" name="recheck_interval" type="number" min="60" max="86400" step="1" required></div>
+              <div class="field"><label for="setting-freshness">Свежесть результата, с</label><input id="setting-freshness" name="freshness" type="number" min="60" max="86400" step="1" required></div>
+              <div class="field"><label for="setting-retention">Хранить результаты, дней</label><input id="setting-retention" name="retention_days" type="number" min="1" max="30" step="1" required></div>
+            </div></fieldset>
+            <fieldset class="settings-group"><legend>Нагрузка и лимиты</legend><p>Число одновременных запросов влияет на нагрузку сети и доступность источников.</p><div class="settings-grid">
+              <div class="field"><label for="setting-check-concurrency">Параллельных проверок</label><input id="setting-check-concurrency" name="check_concurrency" type="number" min="1" max="400" step="1" required></div>
+              <div class="field"><label for="setting-source-concurrency">Параллельных загрузок</label><input id="setting-source-concurrency" name="source_concurrency" type="number" min="1" max="24" step="1" required></div>
+              <div class="field"><label for="setting-cycle-limit">Проверок за цикл</label><input id="setting-cycle-limit" name="max_per_cycle" type="number" min="1" max="100000" step="1" required></div>
+            </div></fieldset>
+            <fieldset class="settings-group"><legend>Тайм-ауты</legend><p>Секунды ожидания ответа на каждом этапе проверки и сбора.</p><div class="settings-grid">
+              <div class="field"><label for="setting-check-timeout">Тайм-аут проверки, с</label><input id="setting-check-timeout" name="check_timeout" type="number" min="1" max="30" step="0.1" required></div>
+              <div class="field"><label for="setting-connect-timeout">Тайм-аут соединения, с</label><input id="setting-connect-timeout" name="connect_timeout" type="number" min="0.2" max="5" step="0.1" required></div>
+              <div class="field"><label for="setting-source-timeout">Тайм-аут источника, с</label><input id="setting-source-timeout" name="source_timeout" type="number" min="5" max="60" step="0.1" required></div>
+            </div></fieldset>
+            <fieldset class="settings-group"><legend>Контрольные адреса</legend><p>Публичные адреса с JSON-ответом о выходном IP. Проверка HTTPS использует TLS с проверкой сертификата.</p><div class="settings-grid probe-grid">
+              <div class="field"><label for="setting-http-probe">Адрес проверки HTTP</label><input id="setting-http-probe" name="http_probe_url" type="url" maxlength="2048" required spellcheck="false"></div>
+              <div class="field"><label for="setting-https-probe">Адрес проверки HTTPS</label><input id="setting-https-probe" name="https_probe_url" type="url" maxlength="2048" required spellcheck="false"></div>
+            </div></fieldset>
+          </fieldset>
+          <div class="settings-save-bar"><div><span id="settings-status" role="status">Настройки ещё не загружены</span><small>Изменения действуют со следующего цикла</small></div><div class="button-group"><button id="settings-cancel" class="button" type="button" disabled>Отменить изменения</button><button id="settings-save" class="button button-primary" type="submit" disabled>Сохранить настройки</button></div></div>
+        </form>
+      </section>
+      <footer class="page-footer"><span>Proxy Harbor</span><span>Без гарантий доступности · Только публичные адреса</span></footer>
+    </main>
+  </div>
+  <dialog id="copy-dialog" class="dialog" aria-labelledby="copy-title">
+    <form method="dialog"><div class="dialog-header"><h2 id="copy-title">Копирование вручную</h2><button class="button button-small" value="close" aria-label="Закрыть окно копирования">Закрыть</button></div></form>
+    <p class="muted">Браузер не разрешил доступ к буферу. Выделите текст и нажмите Ctrl+C.</p>
+    <div class="field"><label for="copy-value">Текст для копирования</label><textarea id="copy-value" readonly spellcheck="false"></textarea></div>
+  </dialog>
+  <dialog id="import-dialog" class="dialog" aria-labelledby="import-title">
+    <form method="dialog"><div class="dialog-header"><h2 id="import-title">Импорт прокси</h2><button class="button button-small" value="close" aria-label="Закрыть окно импорта">Закрыть</button></div></form>
+    <p class="muted">Добавляются только кандидаты, не рабочие прокси. После импорта запустите «Перепроверить».</p>
+    <form id="import-form">
+      <div class="field"><label for="import-text">Список адресов</label><textarea id="import-text" required maxlength="2000000" placeholder="IP:порт или URL — одна запись на строку" spellcheck="false"></textarea></div>
+      <div class="field"><label for="import-protocol">Протокол для адресов без схемы</label><select id="import-protocol"><option value="http">HTTP</option><option value="socks4">SOCKS4</option><option value="socks5">SOCKS5</option></select></div>
+      <p id="import-error" class="inline-error" role="alert" hidden></p>
+      <div class="form-actions"><button id="import-submit" class="button button-primary" type="submit">Добавить в реестр</button></div>
+    </form>
+  </dialog>
+  <dialog id="source-dialog" class="dialog" aria-labelledby="source-dialog-title">
+    <form method="dialog"><div class="dialog-header"><h2 id="source-dialog-title">Новый источник</h2><button class="button button-small" value="close" aria-label="Закрыть окно источника">Закрыть</button></div></form>
+    <p class="muted">Только публичный HTTP(S) URL без учётных данных. Частные адреса отклоняются сервисом.</p>
+    <form id="source-form">
+      <div class="field"><label for="source-name">Название источника</label><input id="source-name" required maxlength="120" autocomplete="off"></div>
+      <div class="field"><label for="source-url">URL источника</label><input id="source-url" type="url" required maxlength="2048" placeholder="https://…" spellcheck="false" autocomplete="off"></div>
+      <div class="form-grid"><div class="field"><label for="source-protocol">Протокол источника</label><select id="source-protocol"><option value="http">HTTP</option><option value="socks4">SOCKS4</option><option value="socks5">SOCKS5</option></select></div><div class="field"><label for="source-format">Формат списка</label><select id="source-format"><option value="text">Текст</option><option value="html">HTML</option><option value="json">JSON</option></select></div></div>
+      <label class="check-field" for="source-enabled"><input id="source-enabled" type="checkbox" checked>Использовать при сборе</label>
+      <p id="source-form-error" class="inline-error" role="alert" hidden></p>
+      <div class="form-actions"><button id="source-submit" class="button button-primary" type="submit">Сохранить источник</button></div>
+    </form>
+  </dialog>
+  <noscript><div class="noscript">Для работы монитора включите JavaScript. API доступен через <a href="/docs">документацию</a>.</div></noscript>
+</body>
+</html>
